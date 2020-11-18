@@ -30,6 +30,8 @@ li {
 }
 .main {
   padding: 100px 80px;
+  background-image:url(IMG_5086.jpg);
+  background-size:cover;
 }
 .copy-container h1 {
   font-size: 60px;
@@ -38,4 +40,35 @@ li {
 .copy-container h2 {
   font-size: 40px
   text-align: center;
+}
+.contact-form {
+  padding-top: 100px;
+}
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #deee7ec;
+}
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+.footer {
+  background-color:#006400;
+  color:#fff;
+  height:60px;
+  padding:40px;
+}
+.footer-logo {
+  float:left;
+  font-size:36px;
+}
+.footer-list {
+  float:right;
+}
+.footer-list li {
+padding-bottom:10px;
 }
